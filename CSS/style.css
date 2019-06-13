@@ -1,0 +1,1067 @@
+*
+{
+  margin:0;
+  padding:0;
+  border:0;
+  vertical-align: baseline;
+  line-height: 1.4em;
+  text-decoration: none;
+  outline: 0;
+}
+
+html, body
+{
+  width: 100%;
+  height: 100%;
+}
+
+.background
+{
+width: 100%;
+height: 100%;
+background-image: url(../images/backgroundface1.jpeg);
+background-size: cover;
+position: relative;
+overflow-y: auto;
+}
+
+nav
+{
+  width: 300px;
+  height: auto;
+  padding-top: 3%;
+  position:absolute;
+}
+
+li
+{
+  list-style: none;
+  text-align:left;
+  padding: 20% 0px 0px 0px;
+  font-size: 28px;
+}
+
+.select
+{
+  background-color: #212121;
+  color: white;
+  padding:20px;
+  transition: 350ms;
+}
+
+
+a.active, nav a:hover
+{
+  background-color: white;
+  color: black;
+}
+
+
+#main
+{
+  width: 310px;
+  height: 250px;
+  position: absolute;
+  right: 32px;
+  top:10%;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+  color: #212121;
+}
+
+.contener
+{
+  width: 1000px;
+  height:600px;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+#aboutme
+{
+  width: 800px;
+  height:600px;
+  position: absolute;
+  right: 350px;
+  top: 10px;
+  font-family: cursive;
+  color: white;
+  background-color: #212121;
+  opacity: 0.9;
+  text-align: center;
+  border: 5px solid white;
+  display: none;
+}
+
+#aboutme p
+{
+  font-size: 22px;
+}
+
+#photos
+{
+  width: 300px;
+  height: 600px;
+  position: absolute;
+  background-color: black;
+  top: 10px;
+  right: 5px;
+  border: 5px solid white;
+  display: none;
+}
+
+#portfolio
+{
+  position: absolute;
+  width: 1200px;
+  height: 650px;
+  right:0px;
+  top:10px;
+  display: none;
+}
+
+.image
+{
+  width:22%;
+  margin:1% 1% 1.5% 3.5%;
+  float: left;
+}
+
+.image img
+{
+  width: 100%;
+  transition: 1s;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.image img:hover
+{
+  transform: scale(1.2);
+  -webkit-transform:scale(1.2);
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
+
+#Clock
+{
+  position: absolute;
+  font-size: 40px;
+  bottom:10px;
+  left:2px;
+  border: 1px solid white;
+  background-color: #212121;
+  color: white;
+  padding:2px;
+}
+
+#contact
+{
+  position: absolute;
+  width: 1200px;
+  height: 600px;
+  right: 80px;
+  top:60px;
+  border:5px solid white;
+  background-color: rgb(50,50,50);
+  padding: 5px;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  display: none;
+}
+
+  #cont
+  {
+    position: absolute;
+    top:100px;
+    left: 5px;
+    width:40%;
+  }
+
+  .inputs
+  {
+    width: 100%;
+    height:60px;
+    border: 2px solid black;
+    margin:15px 0 15px 0;
+    background-color: rgba(10, 10, 10, 0.9);
+    color: white;
+  }
+
+  #message
+  {
+
+    margin:15px 0 15px 0;
+    border: 2px solid black;
+    width: 100%;
+    height: 160px;
+    background-color: rgba(21, 21, 21, 0.9);
+    color:white;
+  }
+
+  #submit
+  {
+    width: 100%;
+    height: 40px;
+    box-shadow:1px 2px 4px rgba(0, 0, 0, .5);
+    background-color: rgba(21, 21, 21, 0.9);
+    color:white;
+  }
+
+  #maps
+  {
+    position: absolute;
+    width: 50%%;
+    top: 150px;
+    right: 5px;
+  }
+
+
+
+@media only screen and (max-width: 1366px)
+{
+
+  nav
+  {
+    width: 260px;
+    height: auto;
+    padding-top: 3%;
+    position:absolute;
+  }
+
+  li
+  {
+    list-style: none;
+    text-align:left;
+    padding: 20% 0px 0px 0px;
+    font-size: 28px;
+  }
+
+  .select
+  {
+    background-color: #212121;
+    color: white;
+    padding:20px;
+    transition: 350ms;
+  }
+
+
+  a.active, nav a:hover
+  {
+    background-color: white;
+    color: black;
+  }
+
+
+  #main
+  {
+    width: 280px;
+    height: 250px;
+    position: absolute;
+    right: 32px;
+    top:10%;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    color: #212121;
+  }
+
+  .contener
+  {
+    width: 1000px;
+    height:600px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+  }
+
+  #aboutme
+  {
+    width: 780px;
+    height:580px;
+    position: absolute;
+    right: 350px;
+    top: 10px;
+    font-family: cursive;
+    color: white;
+    background-color: #212121;
+    opacity: 0.9;
+    text-align: center;
+    border: 5px solid white;
+    display: none;
+  }
+
+  #aboutme p
+  {
+    font-size: 22px;
+  }
+
+  #photos
+  {
+    width: 300px;
+    height: 580px;
+    position: absolute;
+    background-color: black;
+    top: 10px;
+    right: 5px;
+    border: 5px solid white;
+    display: none;
+  }
+
+  #photos img
+  {
+    width: 90%;
+    margin: 3.5% 0% 0% 5%;
+  }
+
+
+  #portfolio
+  {
+    position: absolute;
+    width: 1000px;
+    height: 650px;
+    right:0px;
+    top:10px;
+    display: none;
+  }
+
+  #Clock
+  {
+    position: absolute;
+    font-size: 40px;
+    bottom:10px;
+    left:2px;
+    border: 1px solid white;
+    background-color: #212121;
+    color: white;
+    padding:2px;
+  }
+
+
+  #contact
+  {
+    position: absolute;
+    width: 1100px;
+    height: 500px;
+    right: 30px;
+    top:50px;
+    border:5px solid white;
+    background-color: rgb(50,50,50);
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    display: none;
+  }
+
+    #cont
+    {
+      position: absolute;
+      top:50px;
+      left: 5px;
+      width:40%;
+    }
+
+    .inputs
+    {
+      width: 100%;
+      height:60px;
+      border: 2px solid black;
+      margin:15px 0 15px 0;
+      background-color: rgba(10, 10, 10, 0.9);
+      color: white;
+    }
+
+    #message
+    {
+
+      margin:15px 0 15px 0;
+      border: 2px solid black;
+      width: 100%;
+      height: 160px;
+      background-color: rgba(21, 21, 21, 0.9);
+      color:white;
+    }
+
+    #submit
+    {
+      width: 100%;
+      height: 40px;
+      box-shadow:1px 2px 4px rgba(0, 0, 0, .5);
+      background-color: rgba(21, 21, 21, 0.9);
+      color:white;
+    }
+
+    #maps
+    {
+      position: absolute;
+      width: 50%;
+      top: 100px;
+      left: 500px;
+    }
+}
+
+
+
+@media only screen and (max-width: 415px)
+{
+  .background
+  {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/backgroundface1366.jpg);
+  background-size: cover;
+  position: relative;
+  overflow-y: auto;
+  }
+  nav
+  {
+    width: 411px;
+    height: auto;
+    padding-top: 3%;
+    position:absolute;
+  }
+
+  li
+  {
+    list-style: none;
+    text-align:left;
+    padding: 10% 0px 2% 0px;
+    font-size: 10px;
+    float: left;
+  }
+
+  .select
+  {
+    background-color: #212121;
+    color: white;
+    padding:20px;
+    transition: 350ms;
+  }
+
+
+  a.active, nav a:hover
+  {
+    background-color: white;
+    color: black;
+  }
+
+
+  #main
+  {
+    width: 150px;
+    height: 230px;
+    position: absolute;
+    right: 150px;
+    top:150px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    color: #212121;
+    text-align: right;
+  }
+
+  .contener
+  {
+    width: 1000px;
+    height:600px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+  }
+
+  #aboutme
+  {
+    width: 300px;
+    height:550px;
+    position: absolute;
+    right: 35px;
+    top: 150px;
+    font-family: cursive;
+    color: white;
+    background-color: #212121;
+    opacity: 0.9;
+    text-align: center;
+    border: 5px solid white;
+    display: none;
+  }
+
+  #aboutme p
+  {
+    font-size: 15px;
+  }
+
+  #photos
+  {
+    width: 0px;
+    height: 0%;
+    position: absolute;
+    background-color: black;
+    top: 500px;
+    right: 0;
+    display: none;
+  }
+
+  #photos img
+  {
+    display: none;
+    width: 50%;
+    margin: 0%;
+    float: left;
+  }
+
+
+  #portfolio
+  {
+    position: absolute;
+    width: 400px;
+    height: 1500px;
+    right:0px;
+    top:200px;
+    display: none;
+  }
+
+
+  .image
+  {
+    width:50%;
+    margin:1% 1% 1.5% 3.5%;
+  }
+
+  .image img
+  {
+    width: 100%;
+    transition: 1s;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+  }
+
+  .image img:hover
+  {
+    transform: scale(1.2);
+    -webkit-transform:scale(1.2);
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+  }
+
+
+
+  #Clock
+  {
+    display: none;
+    position: absolute;
+    font-size: 30px;
+    bottom:12px;
+    left:2px;
+    border: 1px solid white;
+    background-color: #212121;
+    color: white;
+    padding:2px;
+  }
+
+
+  #contact
+  {
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    right: 30px;
+    top:150px;
+    border:0px solid white;
+    background-color: rgba(50,50,50,0.0);
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    display: none;
+  }
+
+    #cont
+    {
+      position: absolute;
+      top:80px;
+      left: 40px;
+      width:80%;
+    }
+
+    .inputs
+    {
+      width: 80%;
+      height:60px;
+      border: 2px solid black;
+      margin:15px 0 15px 0;
+      background-color: rgba(10, 10, 10, 0.9);
+      color: white;
+    }
+
+    #message
+    {
+
+      margin:15px 0 15px 0;
+      border: 2px solid black;
+      width: 80%;
+      height: 160px;
+      background-color: rgba(21, 21, 21, 0.9);
+      color:white;
+    }
+
+    #submit
+    {
+      width: 80%;
+      height: 40px;
+      box-shadow:1px 2px 4px rgba(0, 0, 0, .5);
+      background-color: rgba(21, 21, 21, 0.9);
+      color:white;
+    }
+
+    #maps
+    {
+      position: absolute;
+      width: 100px;
+      top: 650px;
+      left: 0px;
+
+    }
+}
+
+@media only screen and (max-width: 370px)
+{
+  .background
+  {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/backgroundface1366.jpg);
+  background-size: cover;
+  position: relative;
+  overflow-y: auto;
+  }
+  nav
+  {
+    width: 320px;
+    height: auto;
+    padding-top: 3%;
+    position:absolute;
+  }
+
+  li
+  {
+    list-style: none;
+    text-align:left;
+    padding: 10% 0px 2% 0px;
+    font-size: 12px;
+    float: left;
+  }
+
+  .select
+  {
+    background-color: #212121;
+    color: white;
+    padding:20px;
+    transition: 350ms;
+  }
+
+
+  a.active, nav a:hover
+  {
+    background-color: white;
+    color: black;
+  }
+
+
+  #main
+  {
+    width: 150px;
+    height: 230px;
+    position: absolute;
+    right: 150px;
+    top:150px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    color: #212121;
+    text-align: right;
+  }
+
+  .contener
+  {
+    width: 1000px;
+    height:600px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+  }
+
+  #aboutme
+  {
+    width: 300px;
+    height:550px;
+    position: absolute;
+    right: 35px;
+    top: 150px;
+    font-family: cursive;
+    color: white;
+    background-color: #212121;
+    opacity: 0.9;
+    text-align: center;
+    border: 5px solid white;
+    display: none;
+  }
+
+  #aboutme p
+  {
+    font-size: 15px;
+  }
+
+  #photos
+  {
+    width: 0px;
+    height: 0%;
+    position: absolute;
+    background-color: black;
+    top: 500px;
+    right: 0;
+    display: none;
+  }
+
+  #photos img
+  {
+    display: none;
+    width: 50%;
+    margin: 0%;
+    float: left;
+  }
+
+
+  #portfolio
+  {
+    position: absolute;
+    width: 400px;
+    height: 1500px;
+    right:20px;
+    top:200px;
+    display: none;
+  }
+
+
+  .image
+  {
+    width:50%;
+    margin:1% 1% 1.5% 3.5%;
+  }
+
+  .image img
+  {
+    width: 100%;
+    transition: 1s;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+  }
+
+  .image img:hover
+  {
+    transform: scale(1.2);
+    -webkit-transform:scale(1.2);
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+  }
+
+
+
+  #Clock
+  {
+    display: none;
+    position: absolute;
+    font-size: 30px;
+    bottom:12px;
+    left:2px;
+    border: 1px solid white;
+    background-color: #212121;
+    color: white;
+    padding:2px;
+  }
+
+
+  #contact
+  {
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    right: 30px;
+    top:150px;
+    border:0px solid white;
+    background-color: rgba(50,50,50,0.0);
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    display: none;
+  }
+
+    #cont
+    {
+      position: absolute;
+      top:80px;
+      left: 40px;
+      width:80%;
+    }
+
+    .inputs
+    {
+      width: 80%;
+      height:60px;
+      border: 2px solid black;
+      margin:15px 0 15px 0;
+      background-color: rgba(10, 10, 10, 0.9);
+      color: white;
+    }
+
+    #message
+    {
+
+      margin:15px 0 15px 0;
+      border: 2px solid black;
+      width: 80%;
+      height: 160px;
+      background-color: rgba(21, 21, 21, 0.9);
+      color:white;
+    }
+
+    #submit
+    {
+      width: 80%;
+      height: 40px;
+      box-shadow:1px 2px 4px rgba(0, 0, 0, .5);
+      background-color: rgba(21, 21, 21, 0.9);
+      color:white;
+    }
+
+    #maps
+    {
+      position: absolute;
+      width: 100px;
+      top: 650px;
+      left: 0px;
+
+    }
+}
+
+@media only screen and (max-width: 320px)
+{
+  .background
+  {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/backgroundface1366.jpg);
+  background-size: cover;
+  position: relative;
+  overflow-y: auto;
+  }
+  nav
+  {
+    width: 320px;
+    height: auto;
+    padding-top: 3%;
+    position:absolute;
+  }
+
+  li
+  {
+    list-style: none;
+    text-align:left;
+    margin: 2px;
+    padding: 10% 0px 2% 0px;
+    font-size: 12px;
+    float: left;
+  }
+
+  .select
+  {
+    background-color: #212121;
+    color: white;
+    padding:20px;
+    transition: 350ms;
+  }
+
+
+  a.active, nav a:hover
+  {
+    background-color: white;
+    color: black;
+  }
+
+
+  #main
+  {
+    width: 150px;
+    height: 230px;
+    position: absolute;
+    right: 150px;
+    top:150px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    color: #212121;
+    text-align: right;
+  }
+
+  .contener
+  {
+    width: 1000px;
+    height:600px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+  }
+
+  #aboutme
+  {
+    width: 310px;
+    height:300px;
+    position: absolute;
+    right: 0;
+    top: 150px;
+    font-family: cursive;
+    color: white;
+    background-color: #212121;
+    opacity: 0.9;
+    text-align: center;
+    border: 5px solid white;
+    display: none;
+  }
+
+  #aboutme p
+  {
+    font-size: 10px;
+  }
+
+  #photos
+  {
+    width: 0px;
+    height: 0%;
+    position: absolute;
+    background-color: black;
+    top: 500px;
+    right: 0;
+    display: none;
+  }
+
+  #photos img
+  {
+    display: none;
+    width: 50%;
+    margin: 0%;
+    float: left;
+  }
+
+
+  #portfolio
+  {
+    position: absolute;
+    width: 320px;
+    height: 1200px;
+    right:10px;
+    top:200px;
+    display: none;
+  }
+
+
+  .image
+  {
+    width:50%;
+    margin:1% 1% 1.5% 3.5%;
+  }
+
+  .image img
+  {
+    width: 100%;
+    transition: 1s;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+  }
+
+  .image img:hover
+  {
+    transform: scale(1.2);
+    -webkit-transform:scale(1.2);
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+  }
+
+
+
+  #Clock
+  {
+    display: none;
+    position: absolute;
+    font-size: 30px;
+    bottom:12px;
+    left:2px;
+    border: 1px solid white;
+    background-color: #212121;
+    color: white;
+    padding:2px;
+  }
+
+
+  #contact
+  {
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    right: 5px;
+    top:150px;
+    border:0px solid white;
+    background-color: rgba(50,50,50,0.0);
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    display: none;
+  }
+
+    #cont
+    {
+      position: absolute;
+      top:80px;
+      left: 40px;
+      width:80%;
+    }
+
+    .inputs
+    {
+      width: 80%;
+      height:60px;
+      border: 2px solid black;
+      margin:15px 0 15px 0;
+      background-color: rgba(10, 10, 10, 0.9);
+      color: white;
+    }
+
+    #message
+    {
+
+      margin:15px 0 15px 0;
+      border: 2px solid black;
+      width: 80%;
+      height: 160px;
+      background-color: rgba(21, 21, 21, 0.9);
+      color:white;
+    }
+
+    #submit
+    {
+      width: 80%;
+      height: 40px;
+      box-shadow:1px 2px 4px rgba(0, 0, 0, .5);
+      background-color: rgba(21, 21, 21, 0.9);
+      color:white;
+    }
+
+    #maps
+    {
+      position: absolute;
+      width: 100px;
+      top: 650px;
+      left: 0px;
+
+    }
+}

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="Author" content="Kacper Kania">
+  <meta name="robots" content="all" />
+  <meta name="description" content="Fotograf-Kacper Kania">
+  <meta name="keywords" content="Fotograf, Fotografia, portfolio,zdjęcia, sesje zdjęciowe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- dodanie tagu responsywności-->
+
+  <link rel="stylesheet" href="CSS/style.css"/>
+  <link rel="stylesheet" href="CSS/lightbox.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+
+  <title>Fotografia</title>
+</head>
+
+<body>
+
+<div class="background">
+
+<div id="Clock"></div>
+<script type="text/javascript">
+function showTime()
+{
+  var date=new Date();
+  var h=date.getHours();
+  var m=date.getMinutes();
+  var s=date.getSeconds();
+
+  if(h<10)
+  {
+    h=0+""+h;
+  }
+
+  if(m<10)
+  {
+    m=0+""+m;
+  }
+
+  if(s<10)
+  {
+    s=0+""+s;
+  }
+
+  var time=h+":"+m+":"+s;
+  document.getElementById("Clock").innerText=time;
+  document.getElementById("Clock").textContent=time;
+
+  setTimeout(showTime, 1000);
+}
+showTime();
+</script>
+
+<nav>
+
+  <ol>
+  <li id="a"> <a class="select active" href="#">HOME</a></li>
+  <li id="b"> <a class="select" href="#">ABOUT ME</a></li>
+  <li id="c"> <a class="select" href="#">PORTFOLIO</a></li>
+  <li id="d"> <a class="select" href="blog.html" target="_blank">BLOG</a></li>
+  <li id="e"> <a class="select" href="#">CONTACT</a></li>
+  </ol>
+
+  </nav>
+
+<main>
+
+<div class="contener">
+
+  <div id="main">
+    <h1><q>Photography is the  story I fail to put into words.
+      — Destin Sparks</q></h1>
+  </div>
+
+  <div id="aboutme">
+
+    <p>
+      <strong>Witajcie</strong>,<br />
+      Nazywam się <strong>Kacper Kania</strong>, to ja jestem twórcą tej strony-portfolio dla fikcyjnej Pani fotograf.
+      Informatyką interesuję się od jakiegoś czasu.
+      Uczę się JAVY, HTML, CSS, JS, MySQL i wszystkiego co mi się może przydać w moim przyszłym zawodzie lub co mnie zainteresuje.
+      Programowanie stało się moją pasją i chociaż różnie bywa, daje mi satysfakcję( o ile oczywiście wszystko działa, bo zdażają się sytuację, gdy siędzę kilka dni nad rozwiązywaniem
+      jakiegoś problemu/błędu. Jednak ogromna jest moja radość gdy uda mi się ten problem rozwiązać, bo najlepiej człowiek uczy się na błędach i naprawianiu ich :) )
+      Oprócz programowania interesuję się sportem.
+      W wolnych chwilach gram w piłkę, a także uprawiam kalistenikę. Pozwala mi się to odstresować, a dodatkowo poprawia sylwetkę. Wiadomo trzeba rozwijać umysł i ciało równomiernie :).
+      Uwielbiam również grać w gry komputerowe, o których mógłbym pisać godzinami, jednak nie mamy na to czasu, dlatego zapraszam do dalszego oglądania mojego projektu.
+    </p>
+  </div>
+
+<div id="photos">
+  <img src="images/aboutme5.jpg">
+  <img src="images/aboutme4.jpg">
+  <img src="images/aboutme2jpg.jpg">
+</div>
+
+
+<div id="portfolio">
+  <div class="image">
+  <a href="portfolio/carsBIG.jpg" data-lightbox="porfolio"><img src="portfolio/carssmall.jpeg"></a>
+  </div>
+  <div class="image">
+  <a href="portfolio/weddingBIG.jpg" data-lightbox="porfolio"><img src="portfolio/weddingSMALL.jpeg"></a>
+  </div>
+  <div class="image">
+  <a href="portfolio/catBIG.jpg" data-lightbox="porfolio"><img src="portfolio/catSMALL.jpeg"></a>
+  </div>
+  <div class="image">
+  <a href="portfolio/partyBIG.jpg" data-lightbox="porfolio"><img src="portfolio/partySMALL.jpeg"></a>
+  </div>
+  <div class="image">
+  <a href="portfolio/eyeBIG.jpg" data-lightbox="porfolio"><img src="portfolio/eyeSMALL.jpeg"></a>
+  </div>
+  <div class="image">
+  <a href="portfolio/loveBIG.jpeg" data-lightbox="porfolio"><img src="portfolio/loveSMALL.jpeg"></a>
+  </div>
+  <div class="image">
+  <a href="portfolio/naturaBIG.jpg" data-lightbox="porfolio"><img src="portfolio/naturaSMALL.jpeg"></a>
+  </div>
+  <div class="image">
+  <a href="portfolio/libraryBIG.jpg" data-lightbox="porfolio"><img src="portfolio/librarySMALL.jpeg"></a>
+  </div>
+  <div class="image">
+  <a href="portfolio/airplaneBIG.jpeg" data-lightbox="porfolio"><img src="portfolio/airplaneSMALL.jpeg"></a>
+  </div>
+</div>
+
+<div id="contact">
+  Skontaktuj się ze mną!
+  <div id="cont">
+
+      <form action="https://script.google.com/macros/s/AKfycbylgtUy-OEo2IKCtuPfxAYJG9tYBwDsO5F8JJky/exec" method="POST" data-email="
+        xk4psel@gmail.com">
+        <input type="text"  name="name" class="inputs" id="inpname" placeholder="Twoje imie">
+        <input type="email" name="email" class="inputs" id="inpemail" placeholder="Twój e-mail">
+        <textarea name="message" id="message" rows="8" cols="80" placeholder="Wprowadź wiadomość..."></textarea>
+        <button type="submit" id="submit">Zatwierdź</button>
+      </form>
+
+      </div>
+
+<div id="maps">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.5481563479307!2d21.00843191517274!3d52.233426479760965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471eccf4b05d8ce9%3A0xd583e7c8df2a088!2sRelax+Foto.+Akcesoria+fotograficzne!5e0!3m2!1spl!2spl!4v1560359787600!5m2!1spl!2spl" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+</div>
+
+
+
+<div id="blog">
+</div>
+
+</div>
+
+</main>
+
+
+</div>
+
+<script type="text/javascript" src="JavaScript/lib/jquery-3.4.1.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+$('a').click(function()
+  {
+    var chosen=$(this);
+    $('a').removeClass('active');
+    $(chosen).addClass('active');
+  });
+
+
+  var $a=$('#a'),
+  $b=$('#b'),
+  $c=$('#c'),
+  $d=$('#d'),
+  $e=$('#e'),
+  $main=$('#main');
+  $aboutme=$('#aboutme');
+  $photos=$('#photos');
+  $portfolio=$('#portfolio');
+  $blog=$('#blog');
+  $contact=$('#contact');
+
+$a.click(function()
+{
+  $main.fadeIn();
+  $aboutme.fadeOut();
+  $photos.fadeOut();
+  $portfolio.fadeOut();
+  $blog.fadeOut();
+  $contact.fadeOut();
+});
+
+$b.click(function()
+{
+  $main.fadeOut();
+  $aboutme.fadeIn();
+  $photos.fadeIn();
+  $portfolio.fadeOut();
+  $blog.fadeOut();
+  $contact.fadeOut();
+});
+
+
+$c.click(function()
+{
+  $main.fadeOut();
+  $aboutme.fadeOut();
+  $photos.fadeOut();
+  $portfolio.fadeIn();
+  $blog.fadeOut();
+  $contact.fadeOut();
+});
+
+$d.click(function()
+{
+  $main.fadeOut();
+  $aboutme.fadeOut();
+  $photos.fadeOut();
+  $portfolio.fadeOut();
+  $blog.fadeIn();
+  $contact.fadeOut();
+});
+
+$e.click(function()
+{
+  $main.fadeOut();
+  $aboutme.fadeOut();
+  $photos.fadeOut();
+  $portfolio.fadeOut();
+  $blog.fadeOut();
+  $contact.fadeIn();
+});
+
+});
+
+
+
+$(document).ready(function()
+{
+  $('#submit').click(function(event)
+  {
+
+    var email=$('#inpemail').val();
+    var name=$('#inpname').val();
+    var message=$('#message').val();
+
+    if(name.length<1)
+    {
+      alert("Wprowadź swoje imię!");
+      event.preventDefault();
+    }
+
+    if(message.length<1)
+    {
+      alert("Nie możesz wysłać pustej wiadomości!");
+      event.preventDefault();
+    }
+
+    if(email.length<5 && !(email.includes('@')) && !(email.includes('.')) )
+    {
+      alert("Wprowadź poprawnt e-mail!");
+      event.preventDefault();
+    }
+
+  });
+});
+</script>
+
+<script type="text/javascript" src="JavaScript/lib/lightbox-plus-jquery.min.js"></script>
+
+</body>
+
+</html>
